@@ -44,9 +44,13 @@ pip install -r requirements.txt
 You can train or evaluate the model using publicly available datasets such as:
 
 FaceForensics++
+
 DFDC (DeepFake Detection Challenge)
+
 Celeb-DF
+
 ASVSpoof
+
 FakeAVCeleb
 
 ⚠️ Disclaimer
