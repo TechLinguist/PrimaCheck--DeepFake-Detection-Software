@@ -23,6 +23,7 @@ dist-ssr/
 build/
 .next/
 out/
+venv/
 
 # Environment variables
 .env
