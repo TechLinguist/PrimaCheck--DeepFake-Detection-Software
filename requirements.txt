@@ -1,0 +1,12 @@
+flask
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+scikit-learn
+tqdm
+matplotlib
+librosa
+soundfile
+tensorflow
