@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+🔍 Deepfake Detection Software
 
-## Project info
+A machine learning–powered tool for detecting manipulated media (deepfakes). This project provides a framework for analyzing images and videos to identify whether content has been artificially generated or tampered with.
 
-**URL**: https://lovable.dev/projects/e4e812d6-d65f-49d3-8789-c2764caf1612
+✨ Features
 
-## How can I edit this code?
+🖼 Image & Video Support – Detect deepfakes from still images or video frames
 
-There are several ways of editing your application.
+🤖 Deep Learning Models – Powered by CNNs/Transformers for robust classification
 
-**Use Lovable**
+⚡ Real-Time Detection – Optional pipeline for live or streaming media analysis
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e4e812d6-d65f-49d3-8789-c2764caf1612) and start prompting.
+📊 Explainability – Probability scores and visualization (e.g., heatmaps) for transparency
 
-Changes made via Lovable will be committed automatically to this repo.
+🔌 Extensible – Easy to integrate new models or datasets
 
-**Use your preferred IDE**
+🛠 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Python 3.x
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+PyTorch / TensorFlow (choose based on your implementation)
 
-Follow these steps:
+OpenCV for preprocessing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+NumPy / Pandas for data handling
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Flask or FastAPI (optional API deployment)
 
-# Step 3: Install the necessary dependencies.
-npm i
+🚀 Installation
+# Clone repository
+git clone https://github.com/your-username/deepfake-detection.git
+cd deepfake-detection
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # (Linux/Mac)
+venv\Scripts\activate      # (Windows)
 
-**Edit a file directly in GitHub**
+# Install dependencies
+pip install -r requirements.txt
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📊 Datasets
 
-**Use GitHub Codespaces**
+You can train or evaluate the model using publicly available datasets such as:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+FaceForensics++
+DFDC (DeepFake Detection Challenge)
+Celeb-DF
+ASVSpoof
+FakeAVCeleb
 
-## What technologies are used for this project?
+⚠️ Disclaimer
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e4e812d6-d65f-49d3-8789-c2764caf1612) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is intended for research, educational, and security purposes only.
+Misuse of this software for malicious activities is strictly prohibited.
